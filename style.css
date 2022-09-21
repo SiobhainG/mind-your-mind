@@ -76,7 +76,7 @@ a {
 #sky-image {
     height: 650px;
     width: 100%;
-    background: url(/assets/images/Optimized-pexels-miguel-á-padriñán-19670.jpg);
+    background: url(assets/images/Optimized-pexels-miguel-á-padriñán-19670.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -113,7 +113,7 @@ a {
     height: auto;
     width: 100vw;
     display: grid;
-    background-image: url(/assets/images/pexels-yan-krukov-8436727.jpg);
+    background-image: url(assets/images/pexels-yan-krukov-8436727.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -139,7 +139,7 @@ a {
 /* Styles Methods Page*/
 
 #methods-outer {
-    background: url(/assets/images/Optimized-pexels-miguel-á-padriñán-19670.jpg);
+    background: url(assets/images/Optimized-pexels-miguel-á-padriñán-19670.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
