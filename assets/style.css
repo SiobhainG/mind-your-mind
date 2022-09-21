@@ -24,6 +24,11 @@ a {
     text-decoration: none;
 }
 
+.active {
+    text-decoration: underline;
+    border-bottom: #3a3a3a 2px solid;
+}
+
 /*Styles logo and navigation bar*/
 
 #logo {
@@ -131,8 +136,49 @@ a {
     background-color: rgba(58, 58, 58, .8);
 }
 
+/* Styles Methods Page*/
 
-/* Site footer */
+#methods-outer {
+    background: url(/assets/images/Optimized-pexels-miguel-á-padriñán-19670.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding: 50px;
+    height: 800px;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.methods {
+    font-size: 120%;
+    height: 250px;
+    width: 400px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #EFF3F3;
+    color: #3a3a3a;
+    border: #B3C9D5 5px solid;
+    border-radius: 25px;
+}
+
+.methods h2 {
+    color: #3a3a3a;
+    text-align: center;
+}
+
+.methods p {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.methods ul {
+    text-align: center;
+}
+
+
+/* Styles footer */
 
 footer {
     height: 40px;
