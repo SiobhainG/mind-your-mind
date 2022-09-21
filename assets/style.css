@@ -256,11 +256,11 @@ input[type=text], input[type=email] {
 }
 
 #thankyou h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #thankyou p {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /* Styles footer */
