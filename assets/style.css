@@ -176,6 +176,34 @@ a {
     text-align: center;
 }
 
+/*Styles Gallery page*/
+
+#gallery-outer {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.gallery {
+    margin: 0 auto;
+    height: 1200px;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    
+}
+
+.gallery img {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
 
 /* Styles footer */
 
