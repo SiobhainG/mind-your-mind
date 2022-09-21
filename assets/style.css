@@ -145,7 +145,6 @@ a {
     background-position: left;
     padding: 50px;
     height: 800px;
-   
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -181,14 +180,13 @@ a {
 /* Styles footer */
 
 footer {
-    height: 40px;
+   line-height: 30px;
+   position: relative;
 }
 
 .social-links {
     text-align: center;
-    width: 100vw;
-    position: relative;
-    bottom: 0;
+    width: 100%;
 }
 
 .social-links li {
@@ -198,7 +196,7 @@ footer {
 .social-links i {
     font-size: 180%;
     padding: 10px;
-   text-align: center;
+    text-align: center;
     color: white;
 }
 
