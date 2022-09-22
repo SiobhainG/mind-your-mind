@@ -164,22 +164,23 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    padding: 50px;
+    width: 100%;
     height: 100vh;
+    padding-top: 20px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, .5fr);
 }
 
 .methods {
     font-size: 120%;
-    height: 250px;
+    height: 230px;
     width: 400px;
     padding: 20px;
     margin: 0 auto;
     background-color: #EFF3F3;
     color: #3a3a3a;
-    border: #B3C9D5 5px solid;
+    border: #B3C9D5 3px solid;
     border-radius: 25px;
 }
 
@@ -307,21 +308,11 @@ footer {
 
 /* media queries */
 
-/* For screen sizes 1000px and down */
+/* For screen sizes 1600px and down */
 
-@media screen and (max-width: 1000px) {
-    
-    #methods-outer {
-        display: grid;
-        grid-gap: 5px;
-        grid-template-columns: repeat(1,1fr);
-    }
+@media screen and (max-width: 1600px) {
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(9, 550px);
-    }
+  
 
     #form {
         width: 60vw;
