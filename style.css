@@ -165,17 +165,17 @@ a {
     background-size: cover;
     background-position: left;
     padding: 50px;
-    height: 800px;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .methods {
     font-size: 120%;
     height: 250px;
     width: 400px;
-    padding: 30px;
+    padding: 20px;
     margin: 0 auto;
     background-color: #EFF3F3;
     color: #3a3a3a;
@@ -311,28 +311,111 @@ footer {
 
 @media screen and (max-width: 1000px) {
     
-#methods-outer {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(1,1fr);
-}
+    #methods-outer {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1,1fr);
+    }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(9, 550px);
-}
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9, 550px);
+    }
 
-#form {
-    width: 60vw;
-    margin: 0 auto;
-}
-
-/* For small screen sizes 800px and down */
-@media screen and (max-width: 800px) {
-
-
+    #form {
+        width: 60vw;
+        margin: 0 auto;
+    }
 
 }
+
+/* For screen sizes 768px and down */
+
+@media screen and (max-width: 768px) {
+    
+    #logo {
+        height: auto;
+    }
+
+    #navigation a{
+        font-size: 30px;
+    }
+
+    .meditation{
+        width: 50vw;
+        height: auto;
+    }
+
+    #methods-outer {
+        height: 100vh;
+        font-size:  120%;
+    }
+
+    #join-form {
+        font-size: 150%;
+        height: 60vh;
+    }
+
+    #form {
+        width: 80vw;
+        font-size: 120%;
+        height: 600px;
+    }
+
+    input[type=submit] {
+        font-size: 100%;
+    }   
+
+}
+
+/* For screen sizes 320px and down */
+
+@media screen and (max-width: 320px) {
+
+    /*Styles main page*/
+
+    #navigation {
+        height: 75px;
+    }
+
+    #navigation a {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    #sky-image {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #sky-text {
+        font-size: 20px;
+        padding: 5px;
+        top: 30%;
+    }
+
+    .meditation {
+        width: 80vw;
+        margin: 10px;
+    }
+
+    /*Styles Methods page */
+
+    .methods {
+        font-size: 90%;
+        width: 60vw;
+        height: 260px;
+        
+    }
+
+    .methods h2 {
+        font-size: 100%;
+        padding-top: 0px;
+    }
+
+    .methods p {
+        padding-top: 3px;
+    }
 
 }
