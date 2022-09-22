@@ -179,20 +179,18 @@ a {
 /*Styles Gallery page*/
 
 #gallery-outer {
-    height: 100%;
-    width: 100%;
+    height: 1550px;
+    width: 90vw;
+    margin: 0 auto;
     
 }
 
 .gallery {
-    margin: 0 auto;
-    height: 1200px;
-    width: 90vw;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 500px);
     grid-gap: 5px;
-    
 }
 
 .gallery img {
@@ -307,6 +305,13 @@ footer {
 #form {
     width: 60vw;
     margin: 0 auto;
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+
+
+
 }
 
 }
