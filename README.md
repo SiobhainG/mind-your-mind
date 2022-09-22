@@ -1,108 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mind Your Mind
 
-Welcome SiobhainG,
+The Mind Your Mind website is a informational website for those who want to join Ireland's No. 1 Mindfulness community. Mind Your Mind offer various activities, ranging from yoga and meditation classes, to grief & anxiety counselling.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this website will find further information on Mind Your Mind and their practices. The website also provides an avenue to get in contact with the Mind Your Mind organisation to discuss membership options.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Am I Responsive Image](/assets/images/amiresponsive.PNG)
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- ### Navigation
+    - Featured at the top of the page, the navigation shows the Mind Your Mind logo that links to the main page.
+    - The other navigation links are below the logo: Home, Methods, Gallery and Join Us, which link to seperate pages.
+    - The navigation clearly communicates to the user the name of the group and website and makes the different pages easier to locate.
 
-`python3 -m http.server`
+![Navigation Image](/assets/images/navigation.PNG)
 
-A blue button should appear to click: _Make Public_,
+- ### Main Image
+    - The main image has a zoom effect to draw the users' attention. The text over the main image informs users that Mind Your Mind is Ireland's No. 1 Mindufulness community.
+    - The main image also has a quote from Pema Chödrön which aims to uplift the users and inspire them to get in contact.
 
-Another blue button should appear to click: _Open Browser_.
+![Main Image](/assets/images/mainimage.PNG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- ### Membership Section
+    - The Membership section includes information about what the user can expect when joining the Mind Your Mind community.
+    - The first piece of information tells the user of Mind Your Mind's yoga and mediatation classes, offered 7 days a week. 
+    - The second piece of information tells users they can expect to find a sense of community after becoming a Mind Your Mind member.
+    - The third piece of information informs users that they will be provided with a mentor upon joining the community who is available to help them along their journey.
+    - This section also has a background image of Mind Your Mind members engaging in a yoga class to provide the user's with an idea of what a class looks like.
 
-A blue button should appear to click: _Make Public_,
+![Membership section image](/assets/images/membership.PNG)
 
-Another blue button should appear to click: _Open Browser_.
+- ### Footer
+    - The footer provides users with social media links for Mind Your Mind.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Footer image](/assets/images/footer.PNG)
 
-To log into the Heroku toolbelt CLI:
+- ### Methods Page
+    - The Methods page informs the user of the different methods used by Mind Your Mind.
+    - The Weekly Classes section tells the user there are differnt classes in every region and suggests they link in with their local brannch for details.
+    - The Safe Space section tells the user how important it is to Mind Your Mind to provide a safe space for users to go through their mindfulness journey.
+    - The 1:1 Mentorship section advises users that they will be matched with a mentor upon joining who will be on hand to guide them along their journey.
+    - The Other Methods section outlines several other methods that Mind Your Mind provide to members.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Methods page image](/assets/images/methodspage.PNG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
