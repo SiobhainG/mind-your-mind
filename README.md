@@ -44,5 +44,63 @@ Users of this website will find further information on Mind Your Mind and their 
 
 ![Methods page image](/assets/images/methodspage.PNG)
 
+- ### Gallery Page
+    - The Gallery page shares 9 images with the user of various Mind Your Mind members attending various classes.
+
+![Gallery page image](/assets/images/gallery.PNG)
+
+- ### Join Us Page
+    - The Join Us Page has a form to collect details from users so they can join the Mind Your Mind community.
+    - The form collects the user's first name, last name, email address, phone number and some further detail about the user.
+    - The form is valuable to the user as it allows them to provide details in order to be contacted with further information surrounding Mind Your Mind membership.
+
+![Join Us page image](/assets/images/joinuspage.PNG)
+
+- ### Form Thank You Page
+    - The Thank You page appears after the user has submitted their form.
+    - The Thank You page thanks the user for getting in contact and indicates a timeframe for a response from Mind Your Mind.
+
+![Thank You page image](/assets/images/thankyoupage.PNG)
+
+## Testing
+- I tested that the website works in different browsers - Chrome, Firefox, Safari.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the form works correctly, all fields are require entries, and that the submit button works and links the user to the thank you page.
+
+## Bugs
+### Solved Bugs
+- After deploying my project to GitHub pages, I disovered the link to the CSS file and images were not working.
+- I moved the style.css file to the main directory and amended the image paths to reflect same which fixed the issue.
+
+## Validator Testing
+- HTML
+    - No errors were returned when passing through the officail W3C validator.
+- CSS
+    - No errors were returned when passing through the official Jigsaw validator.
+- Accessibility
+    - I confirmed that the colours and fonts chosen were legible and accessible by running it through the Lighthouse in devtools.
+
+![Lighthouse tools image one](/assets/images/performance1.PNG)
+![Lighthouse tools image two](/assets/images/performance2.PNG)
+
+### Unfixed Bugs
+- No unfixed bugs.
+
+## Deployment
+- This website was deployed to GitHub pages. The steps to deploy are:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, choose the Master Branch
+    - Once the master branch is selected, the page has provided the link to the completed website
+
+The live link can be found here - [Mind Your Mind](https://siobhaing.github.io/mind-your-mind/index.html)
+
+## Credits
+
+### Content
+- The code to make the social media links in the footer was taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) Project.
+
+### Media
+- All images used on the website were sourced from [Pexels](https://www.pexels.com/)
+
 
 
