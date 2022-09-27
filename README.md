@@ -67,12 +67,12 @@ Users of this website will find further information on Mind Your Mind and their 
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 - I confirmed that the form works correctly, all fields are require entries, and that the submit button works and links the user to the thank you page.
 
-## Bugs
-### Solved Bugs
+### Bugs
+#### Solved Bugs
 - After deploying my project to GitHub pages, I disovered the link to the CSS file and images were not working.
-- I moved the style.css file to the main directory and amended the image paths to reflect same which fixed the issue.
+- I removed the / from the file path for my link to the CSS stylesheet and this resolved the issue.
 
-## Validator Testing
+#### Validator Testing
 - HTML
     - No errors were returned when passing through the officail W3C validator.
 - CSS
@@ -83,7 +83,7 @@ Users of this website will find further information on Mind Your Mind and their 
 ![Lighthouse tools image one](/assets/images/performance1.PNG)
 ![Lighthouse tools image two](/assets/images/performance2.PNG)
 
-### Unfixed Bugs
+#### Unfixed Bugs
 - No unfixed bugs.
 
 ## Deployment
