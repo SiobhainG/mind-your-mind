@@ -235,6 +235,7 @@ a {
 #join-form p {
     padding-top: 10px;
     color: white;
+    font-size: large;
 }
 
 #form {
@@ -257,6 +258,7 @@ input[type=submit] {
     font-size: 15px;
     border: 2px solid white;
     border-radius: 25px;
+    margin-top: 30px;
 }
 
 input[type=text], input[type=email] {
@@ -265,6 +267,11 @@ input[type=text], input[type=email] {
 
 #aboutyou {
     border: #3a3a3a 1px solid;
+}
+
+#form li {
+    color: #3a3a3a;
+    padding: 2px;
 }
 
 /*Styles form Thank you page*/
