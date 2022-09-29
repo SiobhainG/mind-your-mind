@@ -393,6 +393,33 @@ footer {
 
 }
 
+/* For screen sizes 644px and down */
+
+@media screen and (max-width: 644px) {
+   
+    /*Main page*/
+
+    #navigation {
+        height: 70px;
+    }
+
+    #navigation a {
+        font-size: 20px;
+        padding: auto;
+    }
+
+    #sky-outer {
+        width: 100%;
+    }
+
+    /*Form page*/
+
+    #join-form {
+        width: 75vw;
+    }
+
+}
+
 /* For screen sizes 320px and down */
 
 @media screen and (max-width: 320px) {
