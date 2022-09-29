@@ -69,8 +69,10 @@ Users of this website will find further information on Mind Your Mind and their 
 
 ### Bugs
 #### Solved Bugs
-- After deploying my project to GitHub pages, I disovered the link to the CSS file and images were not working.
-- I removed the / from the file path for my link to the CSS stylesheet and this resolved the issue.
+- After deploying my project to GitHub pages, I disovered the links to the CSS file and images were not working.
+- I removed the / from the file path for my link to the CSS stylesheet, original shown below, and this resolved the issue.
+
+`<link rel="stylesheet" href="/assets/css/style.css>`
 
 #### Validator Testing
 - HTML
