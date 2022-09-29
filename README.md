@@ -91,8 +91,8 @@ Users of this website will find further information on Mind Your Mind and their 
 ## Deployment
 - This website was deployed to GitHub pages. The steps to deploy are:
     - In the GitHub repository, navigate to the Settings tab
-    - From the source section drop-down menu, choose the Master Branch
-    - Once the master branch is selected, the page has provided the link to the completed website
+    - From the source section drop-down menu, choose the main branch
+    - Once the main branch is selected, the page has provided the link to the completed website
 
 The live link can be found here - [Mind Your Mind](https://siobhaing.github.io/mind-your-mind/index.html)
 
@@ -103,6 +103,7 @@ The live link can be found here - [Mind Your Mind](https://siobhaing.github.io/m
 
 ### Media
 - All images used on the website were sourced from [Pexels](https://www.pexels.com/)
+
 
 
 
